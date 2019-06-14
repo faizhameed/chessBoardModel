@@ -1,33 +1,110 @@
-.App {
+.chessSq {
+  
+      width: 75px;
+      height: 75px;
+      text-align: center;
+      justify-content: center;
+      
+    }
+
+
+.chessb {
+      background: rgb(0, 0, 0);
+      
+    }
+    .chessw {
+
+      background: rgb(255, 255, 255);
+    }
+
+  .row{
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .board{
+    display:grid;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  h1{
+    display: flex;
+    margin: 0 auto;
+    padding: 25px;
+    color: #2b3253;
+    font-size: 4em;
+  }
+  p{
+    display: flex;
+    margin: 0 auto;
+    color: #fad744;
+    font-size: 2em;
+  }
+  .container{
+    display:grid;
+    text-align: center;
+  }
+
+  .columntext{
+    width: 75px;
+    height: 75px;
+    color: #fad744;
+    font-weight: 600;
+  }
+
+  .rowtext{
+    width: 75px;
+    height: 75px;
+    color: #2b3253;
+    font-weight: 600;
+  }
+
+  .rowtextall{
+    display: flex;
+    position:absolute;
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 535px;
+    text-transform: uppercase;
+    font-size: 2em;
+    
+
+  }
+
+  .columntextall{
+    position:absolute;
+    padding-top: 120px;
+    padding-left: 470px;
+    font-size: 2em;
+  }
+
+  .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.chessSq .sqname {
+  visibility: hidden;
+  width: 50px;
+  background-color: #ef5455;
+  color: #fad744;
   text-align: center;
+  padding: 5px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top:10px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Show the tooltip text when you mouse over the tooltip container */
+.chessSq:hover .sqname {
+  visibility: visible;
+  text-transform: capitalize;
 }

@@ -1,0 +1,9 @@
+# Design a chessBoard
+
+> Each square should have the same id as their position on the board. for example the uppermost
+> left square should have the id **a8** and the lowermost right square should have the id **H1**.
+> there is no limitation on which html tag to be used for each square.
+
+### The color of each square should be set using css property
+> background-color
+
