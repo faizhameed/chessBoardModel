@@ -16,6 +16,7 @@ class App extends Component {
       <div className="container">
       <h1>Chess Board</h1>
       <p>Each chess square has unique key given to it by using map function</p>
+      <h3>Hover over square to see the uniquie id</h3>
 
       </div>
     </header>
