@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chessBoardModel/static/css/main.9610fed5.chunk.css",
+    "main.js": "/chessBoardModel/static/js/main.fed9c88a.chunk.js",
+    "main.js.map": "/chessBoardModel/static/js/main.fed9c88a.chunk.js.map",
+    "runtime~main.js": "/chessBoardModel/static/js/runtime~main.ccbf3e2b.js",
+    "runtime~main.js.map": "/chessBoardModel/static/js/runtime~main.ccbf3e2b.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/chessBoardModel/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/chessBoardModel/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/chessBoardModel/index.html",
+    "precache-manifest.748fa0f0f3f6a379dd336cd5e1ef44f7.js": "/chessBoardModel/precache-manifest.748fa0f0f3f6a379dd336cd5e1ef44f7.js",
+    "service-worker.js": "/chessBoardModel/service-worker.js",
+    "static/css/main.9610fed5.chunk.css.map": "/chessBoardModel/static/css/main.9610fed5.chunk.css.map"
+  }
+}
